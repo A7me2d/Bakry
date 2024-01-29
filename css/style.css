@@ -1,0 +1,416 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+
+/* NAV BAr */
+
+.navbar{
+    background-color: rgb(119 118 112);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo{
+    /* background-color: yellowgreen; */
+    width: 30%;
+    float: left;
+}
+
+.logo img{
+width: 50%;
+width: 190px;
+}
+.nav-list{
+    /* background-color: blue; */
+    width: 50%;
+    float: right;
+}
+
+.nav-list ul li{
+    float:left ;
+    list-style-type: none;
+    padding: 20px 30px;
+
+}
+.nav-list ul li a{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* HOME */
+
+
+.home{
+background-image: url(../images/baker\ background.jpg);
+height: 80vh;
+background-size: 100% 100%;
+
+}
+
+
+
+
+.home-caption{
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 280px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+.home-caption h4{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+}
+
+.btn{
+    background-color: transparent;
+    border: 5px;
+    padding: 15px 28px;
+    margin-top: 15px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+
+}
+
+.btn-brown{
+    background-color:rgb(156, 111, 66);
+}
+
+.btn-white{
+    color: #fff !important;
+    border-color: #fff
+}
+
+.home p{
+    font-size: 25px;
+}
+
+/* About */
+
+
+
+
+.about{
+    margin: 50px 10%;
+    height: 580px;
+
+    
+}
+
+.about-img{
+    /* background-color: aqua; */
+    width: 40%;
+    float: left;
+}
+
+.about-img img{
+    width: 100%;
+}
+.about-caption{
+    /* background-color: blue; */
+    width: 60%;
+    float: left;
+    /* text-align: center; */
+    /* padding-top: 100px; */
+}
+
+
+
+.about-caption span{
+color: rgb(151, 114, 58);
+font-size: 30px;
+font-weight: 20px;
+padding-left: 50px;
+}
+
+.about-caption p{
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 20px;
+    padding: 50;
+    font-size: 15px;
+    margin:0px 5px ;
+    line-height: 40px;
+    padding-right: 288px;
+
+
+}
+
+
+.icon img{
+    width: 30px;
+    float: left;
+    padding: 5px;
+    margin-left: 62px;   
+    margin-bottom: 15px;
+    border: 1px;
+    background: none !important;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 100%;
+    
+   
+
+}
+
+.icon p{
+    font: right;
+    font-size: 15px;
+    padding-right: 320px;
+    list-style: none;
+    padding-bottom: 23px;
+    padding-top: 4px;
+    padding-left: 120px;
+}
+
+/* loc */
+.colorlocation{
+    background-color: rgb(247, 247, 247);
+}
+
+.Location{
+    margin-right: 280px;
+    margin: 50px 10%;
+}
+
+.Location-img{
+    width: 33%;
+    float: right;
+}
+
+.Location-img img{
+    width: 100%;
+}
+
+.Location-caption{
+    width: 60%;
+    float: left;
+    margin-left: 95px;
+    margin-top: 100px;
+}
+
+
+.Location-caption span{
+text-align: center;
+    color: rgb(151, 114, 58);
+    font-size: 30px;
+    font-weight: 20px;
+    padding-left: 50px;
+    }
+
+ .Location-caption p{
+        font-family: 'Alegreya Sans', sans-serif;
+        margin-top: 20px;
+        font-size: 15px;
+        margin:0px 5px ;
+        line-height: 40px;
+        padding-right: 288px;
+        
+    
+    }
+
+
+
+    /* Our Baking */
+
+    #bakery{
+        /* background-color: blue; */
+        text-align: center;
+    }
+
+    .our-bakrery{
+        /* background-color: brown; */
+        width: 33%;
+        float:left;
+        box-sizing: border-box;
+        padding: 60px 20px;
+        /* border: 10px solid red; */
+        
+    }
+
+    .our-bakrery img{
+        width: 80%;
+    }
+    .our-bakrery h4{
+        margin-top: 15px;
+    }
+    .our-bakrery p{
+        margin-top: 15px;
+    }
+
+    /* Contect and map */
+
+    
+    .Contact{
+        margin-right: 280px;
+        margin: 50px 10%;
+        
+        }
+
+        .map{
+
+            width: 33%;
+            float: right;
+        }
+
+        .map iframe{
+            width: 100%;
+        }
+
+        .map-caption{
+            width: 60%;
+            float: left;
+        }
+  
+        .map-caption h2{
+            color: rgb(151, 114, 58);
+font-size: 30px;
+font-weight: 20px;
+padding-left: 50px;
+        }
+
+        .map-caption p{
+            font-family: 'Alegreya Sans', sans-serif;
+            margin-top: 20px;
+            padding: 50;
+            font-size: 18px;
+            margin:0px 5px ;
+            line-height: 40px;
+            /* padding-right: 28px; */
+            width: 530px;
+        }
+
+        .icn-map img{
+           
+                width: 30px;
+                float: left;
+                padding: 5px;
+                margin-left: 62px;   
+                margin-bottom: 15px;
+                 border: 1px; 
+                background:#8E7754;
+                border: 1px solid rgba(0,0,0,.15);
+                border-radius: 100%;
+                
+               
+            
+            }
+
+            
+.icn-map p{
+    font: right;
+    font-size: 15px;
+    padding-right: 320px;
+    list-style: none;
+    padding-bottom: 23px;
+    padding-top: 4px;
+    padding-left: 120px;
+}
+
+
+/* END */
+
+
+
+.ENDcolor{
+    background-color: rgb(64, 61, 56);
+}
+.END{
+    display: inline-flex;
+    margin: 50px 10%;
+    
+    color: #ffffff;
+   
+    padding-bottom: 52px;
+    line-height: 1.86em;
+    text-align: left;
+    padding-left: 40px;
+    
+ 
+}
+.About-contact{
+    width:365px;
+    padding-left: 100px;
+    padding-right: 30;
+    
+    
+}
+.About-contact p{
+    font-family: "Alegreya Sans";
+}
+.Why{
+    padding-right: 30px;
+    line-height: 40px;
+    
+}
+.Why ul li{
+    font-family: "Alegreya Sans";
+    font-size: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.OpeningHours{
+    padding-right: 30px;
+    line-height: 35px;
+    font-size: 15px;
+}
+.OpeningHours ul li{
+    font-family: "Alegreya Sans";
+    border-bottom: 1px solid #f0f0f0; 
+}
+.ConDetails{
+    padding-right: 30px;
+    line-height: 35px;
+}
+.ConDetails ul li{
+    border-bottom: 1px solid #f0f0f0; 
+    font-family: "Alegreya Sans";
+}
+
+          /* END IMG */
+
+
+          .backimg{
+          text-align:center;
+          box-sizing: inherit;
+          color: #ffffff;
+          }
+          .Lasticon {
+          text-align: center;
+          padding-bottom: 30px;
+        }
+          .Lasticon img{
+          background-color: rgb(72, 69, 64);
+            width: 30px;
+            padding: 5px;
+            border: 1px;
+            border: 1px solid rgba(0,0,0,.15);
+            border-radius: 100%;
+           
+          }
+        
+
+    @media screen and (max-width: 500px){
+body{
+
+    background-color: blue;
+}
+  }
+        
+    
